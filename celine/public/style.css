@@ -326,6 +326,9 @@ p,
 pre {
   margin: 0;
 }
+p {
+  z-index: 3;
+}
 
 button {
   background-color: transparent;
@@ -11955,6 +11958,10 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+p {
+  z-index: 3;
 }
 
 .text-3xl {
@@ -24902,6 +24909,7 @@ video {
 .text-justify {
   text-align: justify;
 }
+
 
 .text-transparent {
   color: transparent;
